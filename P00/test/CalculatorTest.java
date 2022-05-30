@@ -54,6 +54,16 @@ public class CalculatorTest {
 		assertEquals (10, actual);
 	}
 	
+//	Error test case Add
+//	@Test
+//	public final void testAdd() {
+//		int a = 49;
+//		int b = 7;
+//		Calculator cal = new Calculator();
+//		int actual = cal.divide(a, b);
+//		assertEquals (54, actual);
+//	}
+	
 	@Test
 	public final void testSubtract() {
 		int a = 10;
@@ -62,6 +72,16 @@ public class CalculatorTest {
 		int actual = cal.subtract(a, b);
 		assertEquals (5, actual);
 	}
+	
+//	Error test case Subtract
+//	@Test
+//	public final void testSubtract() {
+//		int a = 100;
+//		int b = 11;
+//		Calculator cal = new Calculator();
+//		int actual = cal.divide(a, b);
+//		assertEquals (79, actual);
+//	}
 	
 	@Test
 	public final void testMultiply() {
@@ -72,6 +92,16 @@ public class CalculatorTest {
 		assertEquals (100, actual);
 	}
 	
+//	Error test case Multiply
+//	@Test
+//	public final void testMultiply() {
+//		int a = 7;
+//		int b = 7;
+//		Calculator cal = new Calculator();
+//		int actual = cal.divide(a, b);
+//		assertEquals (42, actual);
+//	}
+	
 	@Test
 	public final void testDivide() {
 		int a = 81;
@@ -81,6 +111,7 @@ public class CalculatorTest {
 		assertEquals (9, actual);
 	}
 	
+//	Error test case Divide
 //	@Test
 //	public final void testDivide() {
 //		int a = 0;
